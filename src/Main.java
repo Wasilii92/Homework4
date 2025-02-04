@@ -21,7 +21,7 @@ public class Main {
         if (ageBaby<5||(ageBaby>5&&ageBaby<14&&parent==false)){System.out.println(" нельзя кататься на аттракционе");}
         if((ageBaby>=5&&ageBaby<14&&parent==true)){System.out.println(" можно кататься на аттракционе в сопровождении взрослого");}
         if(ageBaby>=14){System.out.println("можно кататься на аттракционе без сопровождения взрослого");}
-        int zanMesta=55;
+        int zanMesta=53;
         int svobMesta=102-zanMesta;
         int svobSidMesta=60-zanMesta;
         if(zanMesta>=102){System.out.println("В вагоне мест нет");}
