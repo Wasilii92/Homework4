@@ -9,12 +9,12 @@ public class Main {
         int speed=50;
         if (speed>60){System.out.println("Если скорость "+speed+" придется заплатить штраф");}
         else{System.out.println("Если скорость "+speed+" можно ездить спокойно");}
-        int age1=20;
+        int age1=24;
         System.out.print("Если возраст человека равен "+age1);
         if(age>2&&age1<=6){System.out.println(", то ему нужно ходить в детский сад");}
         if(age1>=7&&age1<17){System.out.println(", то ему нужно ходитьв школу");}
         if(age1>=18&&age1<24){System.out.println(", то ему нужно ходить в университет");}
-        if(age>=24){System.out.println(", то ему нужно ходить на работу");}
+        if(age1>=24){System.out.println(", то ему нужно ходить на работу");}
         int ageBaby=4;
         boolean parent=true;
         {System.out.print("Возраст ребенка равен "+ageBaby+", то ему");}
